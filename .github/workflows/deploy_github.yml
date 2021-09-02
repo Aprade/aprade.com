@@ -32,8 +32,10 @@ jobs:
       - name: Export project 🧳
         run: yarn export
  
-      - name: Create .nojekyll file 📁
-        run: touch out/.nojekyll
+      - name: Create .nojekyll and CNAME files 📁
+        run: |
+          touch out/.nojekyll
+          echo "aprade.com" > out/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
