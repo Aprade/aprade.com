@@ -25,7 +25,7 @@ export default function Home() {
 						<button class="py-3 px-6 bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300">
 							See our projects
 						</button>
-						<a href="#projects" class="underline hover:text-gray-500 text-white transition duration-300">
+						<a href="#projects" class="flex items-center underline hover:text-gray-500 text-white transition duration-300">
 							<div class="flex">
 								See our projects
 								<ArrowDiagonal className="m-auto ml-3 h-4 w-4" />
